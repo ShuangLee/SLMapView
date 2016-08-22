@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SLWeatherViewController.h
 //  SLMapView
 //
 //  Created by 光头强 on 16/8/19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SLWeatherViewController : UIViewController
 
 @end
-

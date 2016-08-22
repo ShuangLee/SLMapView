@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C13DCE756045EF6D563F5018 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8388C31451AA3AF193DC1EEA /* libPods.a */; };
 		C4610B211D66B9BD00904122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B201D66B9BD00904122 /* main.m */; };
 		C4610B241D66B9BD00904122 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B231D66B9BD00904122 /* AppDelegate.m */; };
-		C4610B271D66B9BD00904122 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B261D66B9BD00904122 /* ViewController.m */; };
-		C4610B2A1D66B9BD00904122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4610B281D66B9BD00904122 /* Main.storyboard */; };
 		C4610B2C1D66B9BD00904122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4610B2B1D66B9BD00904122 /* Assets.xcassets */; };
 		C4610B2F1D66B9BD00904122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4610B2D1D66B9BD00904122 /* LaunchScreen.storyboard */; };
 		C4610B3A1D66B9BD00904122 /* SLMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B391D66B9BD00904122 /* SLMapViewTests.m */; };
 		C4610B451D66B9BD00904122 /* SLMapViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B441D66B9BD00904122 /* SLMapViewUITests.m */; };
 		C4610B561D66DCC100904122 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B551D66DCC100904122 /* LocationManager.m */; };
 		C4610B5B1D66E35700904122 /* SLAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B5A1D66E35700904122 /* SLAnnotation.m */; };
+		C4610B611D66F75200904122 /* SLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B5E1D66F75200904122 /* SLNavigationController.m */; };
+		C4610B621D66F75200904122 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B601D66F75200904122 /* MainViewController.m */; };
+		C4610B671D66F7F000904122 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B661D66F7F000904122 /* ViewController.m */; };
+		C4610B6A1D66F80900904122 /* SLLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B691D66F80900904122 /* SLLocationViewController.m */; };
+		C4610B6D1D66F81700904122 /* SLWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B6C1D66F81700904122 /* SLWeatherViewController.m */; };
+		C4610B711D66FCE500904122 /* SLNoticeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B701D66FCE500904122 /* SLNoticeHeaderView.m */; };
+		C4610B7C1D67014B00904122 /* SLNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B791D67014B00904122 /* SLNetworkTool.m */; };
+		C4610B7D1D67014B00904122 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B7B1D67014B00904122 /* Reachability.m */; };
+		C4610B811D6A9AD900904122 /* SLXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B801D6A9AD900904122 /* SLXMLParser.m */; };
+		C4610B841D6AD48600904122 /* SLWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B831D6AD48600904122 /* SLWeather.m */; };
+		C4610B861D6AD7F600904122 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B851D6AD7F600904122 /* Foundation+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8388C31451AA3AF193DC1EEA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1642B8869890ADDD60AD398 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C4610B1C1D66B9BD00904122 /* SLMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLMapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4610B201D66B9BD00904122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4610B221D66B9BD00904122 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4610B231D66B9BD00904122 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4610B251D66B9BD00904122 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C4610B261D66B9BD00904122 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C4610B291D66B9BD00904122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4610B2B1D66B9BD00904122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4610B2E1D66B9BD00904122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4610B301D66B9BD00904122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +66,29 @@
 		C4610B551D66DCC100904122 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
 		C4610B591D66E35700904122 /* SLAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAnnotation.h; sourceTree = "<group>"; };
 		C4610B5A1D66E35700904122 /* SLAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAnnotation.m; sourceTree = "<group>"; };
+		C4610B5D1D66F75200904122 /* SLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNavigationController.h; sourceTree = "<group>"; };
+		C4610B5E1D66F75200904122 /* SLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLNavigationController.m; sourceTree = "<group>"; };
+		C4610B5F1D66F75200904122 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C4610B601D66F75200904122 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C4610B651D66F7F000904122 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4610B661D66F7F000904122 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4610B681D66F80900904122 /* SLLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLLocationViewController.h; sourceTree = "<group>"; };
+		C4610B691D66F80900904122 /* SLLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLLocationViewController.m; sourceTree = "<group>"; };
+		C4610B6B1D66F81700904122 /* SLWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLWeatherViewController.h; sourceTree = "<group>"; };
+		C4610B6C1D66F81700904122 /* SLWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLWeatherViewController.m; sourceTree = "<group>"; };
+		C4610B6F1D66FCE500904122 /* SLNoticeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNoticeHeaderView.h; sourceTree = "<group>"; };
+		C4610B701D66FCE500904122 /* SLNoticeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLNoticeHeaderView.m; sourceTree = "<group>"; };
+		C4610B721D66FD2E00904122 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C4610B781D67014B00904122 /* SLNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNetworkTool.h; sourceTree = "<group>"; };
+		C4610B791D67014B00904122 /* SLNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLNetworkTool.m; sourceTree = "<group>"; };
+		C4610B7A1D67014B00904122 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C4610B7B1D67014B00904122 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C4610B7F1D6A9AD900904122 /* SLXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLXMLParser.h; sourceTree = "<group>"; };
+		C4610B801D6A9AD900904122 /* SLXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLXMLParser.m; sourceTree = "<group>"; };
+		C4610B821D6AD48600904122 /* SLWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLWeather.h; sourceTree = "<group>"; };
+		C4610B831D6AD48600904122 /* SLWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLWeather.m; sourceTree = "<group>"; };
+		C4610B851D6AD7F600904122 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		E0B8FF388447FA5403C3265D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C13DCE756045EF6D563F5018 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +117,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		069D45B834599C47192B53D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1642B8869890ADDD60AD398 /* Pods.debug.xcconfig */,
+				E0B8FF388447FA5403C3265D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C4610B131D66B9BD00904122 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +133,8 @@
 				C4610B381D66B9BD00904122 /* SLMapViewTests */,
 				C4610B431D66B9BD00904122 /* SLMapViewUITests */,
 				C4610B1D1D66B9BD00904122 /* Products */,
+				069D45B834599C47192B53D5 /* Pods */,
+				E742623510EFB02430A34887 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,12 +151,12 @@
 		C4610B1E1D66B9BD00904122 /* SLMapView */ = {
 			isa = PBXGroup;
 			children = (
-				C4610B521D66DBCB00904122 /* 原生地图 */,
+				C4610B721D66FD2E00904122 /* PrefixHeader.pch */,
 				C4610B221D66B9BD00904122 /* AppDelegate.h */,
 				C4610B231D66B9BD00904122 /* AppDelegate.m */,
-				C4610B251D66B9BD00904122 /* ViewController.h */,
-				C4610B261D66B9BD00904122 /* ViewController.m */,
-				C4610B281D66B9BD00904122 /* Main.storyboard */,
+				C4610B741D6700F200904122 /* NetworkTool */,
+				C4610B5C1D66F73F00904122 /* Main */,
+				C4610B521D66DBCB00904122 /* 原生地图 */,
 				C4610B2B1D66B9BD00904122 /* Assets.xcassets */,
 				C4610B2D1D66B9BD00904122 /* LaunchScreen.storyboard */,
 				C4610B301D66B9BD00904122 /* Info.plist */,
@@ -150,6 +194,10 @@
 		C4610B521D66DBCB00904122 /* 原生地图 */ = {
 			isa = PBXGroup;
 			children = (
+				C4610B7E1D6A9ABC00904122 /* XMLParser */,
+				C4610B731D67001100904122 /* Model */,
+				C4610B6E1D66FCDB00904122 /* View */,
+				C4610B641D66F7F000904122 /* Controller */,
 				C4610B581D66DE7E00904122 /* Annotation */,
 				C4610B531D66DBEC00904122 /* Location */,
 			);
@@ -174,6 +222,77 @@
 			path = Annotation;
 			sourceTree = "<group>";
 		};
+		C4610B5C1D66F73F00904122 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C4610B851D6AD7F600904122 /* Foundation+Log.m */,
+				C4610B5D1D66F75200904122 /* SLNavigationController.h */,
+				C4610B5E1D66F75200904122 /* SLNavigationController.m */,
+				C4610B5F1D66F75200904122 /* MainViewController.h */,
+				C4610B601D66F75200904122 /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C4610B641D66F7F000904122 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4610B651D66F7F000904122 /* ViewController.h */,
+				C4610B661D66F7F000904122 /* ViewController.m */,
+				C4610B681D66F80900904122 /* SLLocationViewController.h */,
+				C4610B691D66F80900904122 /* SLLocationViewController.m */,
+				C4610B6B1D66F81700904122 /* SLWeatherViewController.h */,
+				C4610B6C1D66F81700904122 /* SLWeatherViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C4610B6E1D66FCDB00904122 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4610B6F1D66FCE500904122 /* SLNoticeHeaderView.h */,
+				C4610B701D66FCE500904122 /* SLNoticeHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4610B731D67001100904122 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4610B821D6AD48600904122 /* SLWeather.h */,
+				C4610B831D6AD48600904122 /* SLWeather.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4610B741D6700F200904122 /* NetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				C4610B781D67014B00904122 /* SLNetworkTool.h */,
+				C4610B791D67014B00904122 /* SLNetworkTool.m */,
+				C4610B7A1D67014B00904122 /* Reachability.h */,
+				C4610B7B1D67014B00904122 /* Reachability.m */,
+			);
+			path = NetworkTool;
+			sourceTree = "<group>";
+		};
+		C4610B7E1D6A9ABC00904122 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				C4610B7F1D6A9AD900904122 /* SLXMLParser.h */,
+				C4610B801D6A9AD900904122 /* SLXMLParser.m */,
+			);
+			path = XMLParser;
+			sourceTree = "<group>";
+		};
+		E742623510EFB02430A34887 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8388C31451AA3AF193DC1EEA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4610B491D66B9BD00904122 /* Build configuration list for PBXNativeTarget "SLMapView" */;
 			buildPhases = (
+				1BC1A3C33BAEDDD91F827A8F /* Check Pods Manifest.lock */,
 				C4610B181D66B9BD00904122 /* Sources */,
 				C4610B191D66B9BD00904122 /* Frameworks */,
 				C4610B1A1D66B9BD00904122 /* Resources */,
+				18CC1A2AA5366871EDC90D67 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,7 +400,6 @@
 			files = (
 				C4610B2F1D66B9BD00904122 /* LaunchScreen.storyboard in Resources */,
 				C4610B2C1D66B9BD00904122 /* Assets.xcassets in Resources */,
-				C4610B2A1D66B9BD00904122 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +419,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18CC1A2AA5366871EDC90D67 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BC1A3C33BAEDDD91F827A8F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4610B181D66B9BD00904122 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4610B7D1D67014B00904122 /* Reachability.m in Sources */,
+				C4610B711D66FCE500904122 /* SLNoticeHeaderView.m in Sources */,
+				C4610B811D6A9AD900904122 /* SLXMLParser.m in Sources */,
+				C4610B671D66F7F000904122 /* ViewController.m in Sources */,
 				C4610B561D66DCC100904122 /* LocationManager.m in Sources */,
-				C4610B271D66B9BD00904122 /* ViewController.m in Sources */,
+				C4610B841D6AD48600904122 /* SLWeather.m in Sources */,
+				C4610B6D1D66F81700904122 /* SLWeatherViewController.m in Sources */,
+				C4610B611D66F75200904122 /* SLNavigationController.m in Sources */,
 				C4610B241D66B9BD00904122 /* AppDelegate.m in Sources */,
+				C4610B6A1D66F80900904122 /* SLLocationViewController.m in Sources */,
+				C4610B621D66F75200904122 /* MainViewController.m in Sources */,
+				C4610B861D6AD7F600904122 /* Foundation+Log.m in Sources */,
+				C4610B7C1D67014B00904122 /* SLNetworkTool.m in Sources */,
 				C4610B211D66B9BD00904122 /* main.m in Sources */,
 				C4610B5B1D66E35700904122 /* SLAnnotation.m in Sources */,
 			);
@@ -344,14 +507,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C4610B281D66B9BD00904122 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4610B291D66B9BD00904122 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C4610B2D1D66B9BD00904122 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -445,8 +600,11 @@
 		};
 		C4610B4A1D66B9BD00904122 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1642B8869890ADDD60AD398 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SLMapView/PrefixHeader.pch;
 				INFOPLIST_FILE = SLMapView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -457,8 +615,11 @@
 		};
 		C4610B4B1D66B9BD00904122 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B8FF388447FA5403C3265D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SLMapView/PrefixHeader.pch;
 				INFOPLIST_FILE = SLMapView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -534,6 +695,7 @@
 				C4610B4B1D66B9BD00904122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4610B4C1D66B9BD00904122 /* Build configuration list for PBXNativeTarget "SLMapViewTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +704,7 @@
 				C4610B4E1D66B9BD00904122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4610B4F1D66B9BD00904122 /* Build configuration list for PBXNativeTarget "SLMapViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +713,7 @@
 				C4610B511D66B9BD00904122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
