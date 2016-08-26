@@ -36,6 +36,23 @@
     [self.view addSubview:_mapView];
     // 3. 设置代理
     [_mapView setDelegate:self];
+    
+//    // 4. 其他设置
+//    // 允许跟踪用户位置
+//    [_mapView setUserTrackingMode:MKUserTrackingModeFollow animated:YES];
+//    // 设置地图类型
+//    [_mapView setMapType:MKMapTypeStandard];
+//    // 显示比例尺
+//    [_mapView setShowsScale:YES];
+//    // 显示楼栋
+//    _mapView.showsBuildings = YES;
+//    // 显示交通
+//    _mapView.showsTraffic = YES;
+//    // 显示罗盘
+//    _mapView.showsCompass = YES;
+//    // 平移
+//    _mapView.scrollEnabled = YES;
+//    _mapView.rotateEnabled = YES;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -99,6 +116,11 @@
                 annonation.subtitle = [NSString stringWithFormat:@"风力：%@ 风向：%@", weather.fengli, weather.fengxiang];
                 annonation.icon = @"userIcon";
                 
+                //添加大头针
+                /*
+                 - (void)addAnnotation:(id <MKAnnotation>)annotation;
+                 说明需要传入一个遵守了MKAnnotation协议的对象
+                 */
                 [_mapView addAnnotation:annonation];
             }];
         }];

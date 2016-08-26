@@ -27,6 +27,11 @@
 		C4610B811D6A9AD900904122 /* SLXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B801D6A9AD900904122 /* SLXMLParser.m */; };
 		C4610B841D6AD48600904122 /* SLWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B831D6AD48600904122 /* SLWeather.m */; };
 		C4610B861D6AD7F600904122 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B851D6AD7F600904122 /* Foundation+Log.m */; };
+		C4610B891D6FFE4D00904122 /* AppleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B881D6FFE4D00904122 /* AppleMapViewController.m */; };
+		C4610B941D70017100904122 /* GaodeMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B931D70017100904122 /* GaodeMapViewController.m */; };
+		C4610B971D70019600904122 /* BaiduMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B961D70019600904122 /* BaiduMapViewController.m */; };
+		C4610B9A1D70034C00904122 /* SLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B991D70034C00904122 /* SLBaseViewController.m */; };
+		C4610B9D1D70093A00904122 /* SLLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4610B9C1D70093A00904122 /* SLLineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +93,16 @@
 		C4610B821D6AD48600904122 /* SLWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLWeather.h; sourceTree = "<group>"; };
 		C4610B831D6AD48600904122 /* SLWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLWeather.m; sourceTree = "<group>"; };
 		C4610B851D6AD7F600904122 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		C4610B871D6FFE4D00904122 /* AppleMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleMapViewController.h; sourceTree = "<group>"; };
+		C4610B881D6FFE4D00904122 /* AppleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMapViewController.m; sourceTree = "<group>"; };
+		C4610B921D70017100904122 /* GaodeMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaodeMapViewController.h; sourceTree = "<group>"; };
+		C4610B931D70017100904122 /* GaodeMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaodeMapViewController.m; sourceTree = "<group>"; };
+		C4610B951D70019600904122 /* BaiduMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMapViewController.h; sourceTree = "<group>"; };
+		C4610B961D70019600904122 /* BaiduMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduMapViewController.m; sourceTree = "<group>"; };
+		C4610B981D70034C00904122 /* SLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBaseViewController.h; sourceTree = "<group>"; };
+		C4610B991D70034C00904122 /* SLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBaseViewController.m; sourceTree = "<group>"; };
+		C4610B9B1D70093A00904122 /* SLLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLLineViewController.h; sourceTree = "<group>"; };
+		C4610B9C1D70093A00904122 /* SLLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLLineViewController.m; sourceTree = "<group>"; };
 		E0B8FF388447FA5403C3265D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,6 +172,8 @@
 				C4610B741D6700F200904122 /* NetworkTool */,
 				C4610B5C1D66F73F00904122 /* Main */,
 				C4610B521D66DBCB00904122 /* 原生地图 */,
+				C4610B8B1D70012100904122 /* 高德地图 */,
+				C4610B8A1D70011700904122 /* 百度地图 */,
 				C4610B2B1D66B9BD00904122 /* Assets.xcassets */,
 				C4610B2D1D66B9BD00904122 /* LaunchScreen.storyboard */,
 				C4610B301D66B9BD00904122 /* Info.plist */,
@@ -230,6 +247,8 @@
 				C4610B5E1D66F75200904122 /* SLNavigationController.m */,
 				C4610B5F1D66F75200904122 /* MainViewController.h */,
 				C4610B601D66F75200904122 /* MainViewController.m */,
+				C4610B981D70034C00904122 /* SLBaseViewController.h */,
+				C4610B991D70034C00904122 /* SLBaseViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -237,12 +256,16 @@
 		C4610B641D66F7F000904122 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C4610B871D6FFE4D00904122 /* AppleMapViewController.h */,
+				C4610B881D6FFE4D00904122 /* AppleMapViewController.m */,
 				C4610B651D66F7F000904122 /* ViewController.h */,
 				C4610B661D66F7F000904122 /* ViewController.m */,
 				C4610B681D66F80900904122 /* SLLocationViewController.h */,
 				C4610B691D66F80900904122 /* SLLocationViewController.m */,
 				C4610B6B1D66F81700904122 /* SLWeatherViewController.h */,
 				C4610B6C1D66F81700904122 /* SLWeatherViewController.m */,
+				C4610B9B1D70093A00904122 /* SLLineViewController.h */,
+				C4610B9C1D70093A00904122 /* SLLineViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -283,6 +306,72 @@
 				C4610B801D6A9AD900904122 /* SLXMLParser.m */,
 			);
 			path = XMLParser;
+			sourceTree = "<group>";
+		};
+		C4610B8A1D70011700904122 /* 百度地图 */ = {
+			isa = PBXGroup;
+			children = (
+				C4610B8F1D70015700904122 /* Controller */,
+				C4610B901D70015700904122 /* Model */,
+				C4610B911D70015700904122 /* View */,
+			);
+			path = "百度地图";
+			sourceTree = "<group>";
+		};
+		C4610B8B1D70012100904122 /* 高德地图 */ = {
+			isa = PBXGroup;
+			children = (
+				C4610B8C1D70014F00904122 /* Controller */,
+				C4610B8D1D70014F00904122 /* Model */,
+				C4610B8E1D70014F00904122 /* View */,
+			);
+			path = "高德地图";
+			sourceTree = "<group>";
+		};
+		C4610B8C1D70014F00904122 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4610B921D70017100904122 /* GaodeMapViewController.h */,
+				C4610B931D70017100904122 /* GaodeMapViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C4610B8D1D70014F00904122 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4610B8E1D70014F00904122 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4610B8F1D70015700904122 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4610B951D70019600904122 /* BaiduMapViewController.h */,
+				C4610B961D70019600904122 /* BaiduMapViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C4610B901D70015700904122 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4610B911D70015700904122 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		E742623510EFB02430A34887 /* Frameworks */ = {
@@ -459,6 +548,7 @@
 			files = (
 				C4610B7D1D67014B00904122 /* Reachability.m in Sources */,
 				C4610B711D66FCE500904122 /* SLNoticeHeaderView.m in Sources */,
+				C4610B891D6FFE4D00904122 /* AppleMapViewController.m in Sources */,
 				C4610B811D6A9AD900904122 /* SLXMLParser.m in Sources */,
 				C4610B671D66F7F000904122 /* ViewController.m in Sources */,
 				C4610B561D66DCC100904122 /* LocationManager.m in Sources */,
@@ -466,12 +556,16 @@
 				C4610B6D1D66F81700904122 /* SLWeatherViewController.m in Sources */,
 				C4610B611D66F75200904122 /* SLNavigationController.m in Sources */,
 				C4610B241D66B9BD00904122 /* AppDelegate.m in Sources */,
+				C4610B941D70017100904122 /* GaodeMapViewController.m in Sources */,
 				C4610B6A1D66F80900904122 /* SLLocationViewController.m in Sources */,
 				C4610B621D66F75200904122 /* MainViewController.m in Sources */,
+				C4610B9A1D70034C00904122 /* SLBaseViewController.m in Sources */,
 				C4610B861D6AD7F600904122 /* Foundation+Log.m in Sources */,
+				C4610B9D1D70093A00904122 /* SLLineViewController.m in Sources */,
 				C4610B7C1D67014B00904122 /* SLNetworkTool.m in Sources */,
 				C4610B211D66B9BD00904122 /* main.m in Sources */,
 				C4610B5B1D66E35700904122 /* SLAnnotation.m in Sources */,
+				C4610B971D70019600904122 /* BaiduMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

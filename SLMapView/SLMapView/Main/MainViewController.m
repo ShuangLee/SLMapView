@@ -8,9 +8,9 @@
 
 #import "MainViewController.h"
 #import "SLNavigationController.h"
-#import "ViewController.h"
-#import "SLLocationViewController.h"
-#import "SLWeatherViewController.h"
+#import "AppleMapViewController.h"
+#import "GaodeMapViewController.h"
+#import "BaiduMapViewController.h"
 
 @interface MainViewController ()
 
@@ -25,9 +25,9 @@
 }
 
 - (void)setupChildViewControllers {
-    [self addChildViewController:[[ViewController alloc] init] imageName:@"map"];
-    [self addChildViewController:[[SLLocationViewController alloc] init] imageName:@"location"];
-    [self addChildViewController:[[SLWeatherViewController alloc] init] imageName:@"weather"];
+    [self addChildViewController:[[AppleMapViewController alloc] init] imageName:@"map"];
+    [self addChildViewController:[[GaodeMapViewController alloc] init] imageName:@"location"];
+    [self addChildViewController:[[BaiduMapViewController alloc] init] imageName:@"weather"];
 }
 
 - (void)addChildViewController:(UIViewController *)childController imageName:(NSString *)imageName {
@@ -38,12 +38,12 @@
     
     SLNavigationController *nav = [[SLNavigationController alloc] initWithRootViewController:childController];
     
-    //设置天气预报的导航栏为透明的
-    if ([childController isKindOfClass:[SLWeatherViewController class]]) {
-        [nav.navigationBar setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
-        nav.navigationBar.shadowImage = [[UIImage alloc]init];
-        nav.navigationBar.translucent = YES;
-    }
+//    //设置baidu的导航栏为透明的
+//    if ([childController isKindOfClass:[BaiduMapViewController class]]) {
+//        [nav.navigationBar setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+//        nav.navigationBar.shadowImage = [[UIImage alloc]init];
+//        nav.navigationBar.translucent = YES;
+//    }
 
     [self addChildViewController:nav];
 }

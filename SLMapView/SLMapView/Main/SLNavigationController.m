@@ -16,8 +16,8 @@
 //类第一次调用的时候被调用，且只调用一次
 + (void)initialize {
     UINavigationBar *bar = [UINavigationBar appearance];
-    [bar setBackgroundImage:[UIImage imageNamed:@"navBar_bg_414x70"] forBarMetrics:UIBarMetricsDefault];
-    NSDictionary *attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:17],NSForegroundColorAttributeName: [UIColor whiteColor]};
+    [bar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+    NSDictionary *attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:17],NSForegroundColorAttributeName: [UIColor redColor]};
     [bar setTitleTextAttributes:attributes];
 }
 
@@ -33,7 +33,10 @@
         
         // 自定义返回按钮
         UIButton *btn = [[UIButton alloc] init];
-        [btn setImage:[UIImage imageNamed:@"back_9x16"] forState:UIControlStateNormal];
+        [btn setTitle:@"返回" forState:UIControlStateNormal];
+        [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+        [btn setImage:[UIImage imageNamed:@"navigationButtonReturn"] forState:UIControlStateNormal];
+        [btn setImage:[UIImage imageNamed:@"navigationButtonReturnClick"] forState:UIControlStateHighlighted];
         [btn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
         [btn sizeToFit];
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btn];

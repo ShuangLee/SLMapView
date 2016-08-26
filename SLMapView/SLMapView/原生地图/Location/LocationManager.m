@@ -43,7 +43,7 @@
         //控制定位精度,越高耗电量越大
         _locationManager.desiredAccuracy = kCLLocationAccuracyBest;
         //控制定位服务更新频率。单位是“米”
-        _locationManager.distanceFilter = 100;
+        _locationManager.distanceFilter = 10;
         
         // iOS8以上需要请求权限
         if ([[UIDevice currentDevice] systemVersion].floatValue >= 8.0) {

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SLBaseViewController.h"
 
-@interface SLLocationViewController : UIViewController
+@interface SLLocationViewController : SLBaseViewController
 
 @end
